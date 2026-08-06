@@ -3,8 +3,7 @@ import { Header } from "./components/Header";
 import { WriteArea } from "./components/WriteArea";
 import { Controls } from "./components/Controls";
 import { Stats } from "./components/Stats";
-import { LetterDensity } from "./components/LetterDensity";
-
+import { LetterDensity } from "./components/LetterDensity.jsx";
 function App() {
     const [dark, setDark] = useState(
         localStorage.getItem("theme") === "dark"
